@@ -1,9 +1,9 @@
 package letscode.sarafan.repo;
 
-import letscode.sarafan.domain.Message;
+import letscode.sarafan.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MessageRepo extends JpaRepository<Message, Long> {
+public interface UserDetailsRepo extends JpaRepository<User, String> {
 }
