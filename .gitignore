@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/Title
+
+node_modules
+yarn-error.log
